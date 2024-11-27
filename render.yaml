@@ -1,0 +1,12 @@
+services:
+  - name: web-app
+    type: web
+    repo: https://github.com/Ohenheim/esgi.4a.render.static
+    env: node
+    branch: main
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: API_KEY
+        value: your-api-key
