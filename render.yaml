@@ -1,7 +1,7 @@
 services:
   - name: web-app
     type: web
-    repo: https://github.com/Ohenheim/esgi.4a.render.static
+    repo: https://github.com/Ohenheim/ESGI.Render.4A.Static
     env: node
     branch: main
     plan: free
