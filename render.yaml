@@ -6,7 +6,7 @@ services:
     branch: main
     plan: free
     buildCommand: npm install
-    startCommand: npm start
+    startCommand: npm run
     envVars:
       - key: API_KEY
         value: your-api-key
